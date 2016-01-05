@@ -1,6 +1,12 @@
-# JSX Control Statements
+# JSX Control Statements (JSTransform Fork)
 
-[![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg)](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements/badge.svg?branch=travis&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements?branch=travis)
+[![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements-jstransform.svg)](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements-jstransform/badge.svg?branch=travis&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements-jstransform?branch=travis)
+
+
+* NOTE: This is the JSTransform version of [https://github.com/AlexGilleran/jsx-control-statements](jsx-control-statements) *
+* This version has been split off because JSTransform is no longer actively maintained and having to do everything twice *
+* is slowing down development of jsx-control-statements - hence this version is no longer maintained. This repo is available *
+* in case there's still people who use the JSTransform version and want to develop it or submit pull requests. *
 
 React and JSX are great, but to those of us who are used to dedicated templating libraries like Handlebars, the control
 statements (e.g. if conditions and for loops) are a step backwards in terms of neatness and readability. What's worse is
@@ -11,9 +17,8 @@ actual view, which in my mind turns it into spaghetti.
 Wouldn't it be easier if we could just have some syntactical sugar that turned neat `<If>`/`<Else />`/`</If>` and
 `<For>`/`</For>` tags into ternary ifs and `Array.map`, so you could read your render functions a bit more easily?
 
-So that's what this does. Depending on how you use it, it's either a Babel plugin (recommended) or a set of
-JSTransform visitors that run just before JSX transpilation (less recommended) and perform desugaring from
-`<If>` -> ` ? : ` and `<For>` -> `Array.map`.
+So that's what this does. It's a set of JSTransform visitors that run just before JSX transpilation and perform
+desugaring from`<If>` -> ` ? : ` and `<For>` -> `Array.map`.
 
 ## If Tag
 
@@ -92,10 +97,7 @@ To loop across an `Object`, use `Object.keys()` like so:
   </For>
 ```
 ## How to Use
-Setting up depends on whether you use Babel or not - if so, [use this guide](https://github.com/AlexGilleran/jsx-control-statements/wiki/Using-With-Babel). If you aren't using Babel, [use this guide](https://github.com/AlexGilleran/jsx-control-statements/wiki/Using-with-JSTransform).
-
-## Babel / JSX-Control-Statements Versions
-Babel 6 introduced breaking changes to the plugin API - as such jsx-control-statements versions >= 2.0.0 support only Babel >= 6, those below that support only Babel <= 5.
+[See this guide](https://github.com/AlexGilleran/jsx-control-statements-jstransform/wiki/Using-with-JSTransform).
 
 ## Why Bother Transforming?
 See [here](https://github.com/AlexGilleran/jsx-control-statements/wiki/Why-Transform).
