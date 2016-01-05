@@ -1,6 +1,6 @@
 # JSX Control Statements (JSTransform Fork)
 
-[![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements-jstransform.svg)](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements-jstransform/badge.svg?branch=travis&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements-jstransform?branch=travis)
+[![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements-jstransform.svg?branch=master)](https://travis-ci.org/AlexGilleran/jsx-control-statements-jstransform) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements-jstransform/badge.svg?branch=master&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements-jstransform?branch=master)
 
 
 > NOTE: This is the JSTransform version of [https://github.com/AlexGilleran/jsx-control-statements](jsx-control-statements)
