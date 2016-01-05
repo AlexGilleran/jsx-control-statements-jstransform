@@ -3,10 +3,10 @@
 [![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements-jstransform.svg)](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements-jstransform/badge.svg?branch=travis&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements-jstransform?branch=travis)
 
 
-* NOTE: This is the JSTransform version of [https://github.com/AlexGilleran/jsx-control-statements](jsx-control-statements) *
-* This version has been split off because JSTransform is no longer actively maintained and having to do everything twice *
-* is slowing down development of jsx-control-statements - hence this version is no longer maintained. This repo is available *
-* in case there's still people who use the JSTransform version and want to develop it or submit pull requests. *
+> NOTE: This is the JSTransform version of [https://github.com/AlexGilleran/jsx-control-statements](jsx-control-statements)
+> This version has been split off because JSTransform is no longer actively maintained and having to do everything twice
+> is slowing down development of jsx-control-statements - hence this version is no longer maintained. This repo is available
+> in case there's still people who use the JSTransform version and want to develop it or submit pull requests.
 
 React and JSX are great, but to those of us who are used to dedicated templating libraries like Handlebars, the control
 statements (e.g. if conditions and for loops) are a step backwards in terms of neatness and readability. What's worse is
