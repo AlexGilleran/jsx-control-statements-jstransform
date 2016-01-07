@@ -97,7 +97,7 @@ To loop across an `Object`, use `Object.keys()` like so:
   </For>
 ```
 ## How to Use
-[See this guide](https://github.com/AlexGilleran/jsx-control-statements-jstransform/wiki/Using-with-JSTransform).
+[See this guide](https://github.com/AlexGilleran/jsx-control-statements-jstransform/wiki/Installation).
 
 ## Why Bother Transforming?
 See [here](https://github.com/AlexGilleran/jsx-control-statements/wiki/Why-Transform).
